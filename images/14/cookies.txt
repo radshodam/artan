@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+corpthemes.com	TRUE	/	FALSE	1999999999	PHPSESSID	ik3ip92db3msk0dcicr9ecn4n7
+
