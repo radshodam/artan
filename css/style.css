@@ -3710,7 +3710,7 @@ button:focus {
 .gallery-title
 {
     font-size: 36px;
-    color: #42B32F;
+    color: #ffb900;
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
@@ -3721,31 +3721,34 @@ button:focus {
     width: 7.5%;
     left: 46.5%;
     height: 45px;
-    border-bottom: 1px solid #5e5e5e;
+    /* border-bottom: 1px solid #5e5e5e; */
 }
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    background-color: #fff;
+    border: 1px solid #ffb900;
     border-radius: 5px;
     text-align: center;
-    color: #42B32F;
+    color: #ffb900;
     margin-bottom: 30px;
+    text-shadow: 1px 1px #b3b3b3;
+
 
 }
 .filter-button:hover
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 1px solid #ffb900;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    background-color: #42B32F;
+    background-color: #ffb900;
 
 }
 .filter-button.active
 {
-    background-color: #42B32F;
+    background-color: #ffb900;
     color: white;
 }
 .port-image
@@ -3755,11 +3758,16 @@ button:focus {
 
 .gallery_product
 {
+   
     margin-bottom: 30px;
 	-webkit-animation-duration: 1s;
             animation-duration: 1s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
+}
+.gallery_product img{
+    width: 25rem;
+    height:21rem;
 }
 
 .block{
