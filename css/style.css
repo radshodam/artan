@@ -1250,7 +1250,7 @@ a.slidebtn i {
 
 
 .buy-wrap {
-    background: url(../images/house-bg.jpg) no-repeat top;
+    background: url(../images/aa/Two.jpg) no-repeat top;
     text-align: center;
     background-size: cover;
     padding: 60px 0;
@@ -1259,27 +1259,31 @@ a.slidebtn i {
 .buy-wrap h1 {
     color: #fff;
     font-weight: bold;
+    text-shadow: 4px 4px 8px #41444c, 8px -4px 8px #1f1c16;
+
 }
 
 .buy-wrap p {
-    font-size: 14px;
-    font-style: italic;
-    padding: 0 150px;
-    line-height: 26px;
+    font-size: 1.2em;
+    line-height: 37px;
+    font-weight: 600;
+        padding: 0 150px;
+    /* line-height: 26px; */
     margin-top: 25px;
     color: #fff;
+    text-shadow: 4px 4px 8px #41444c, 8px -4px 8px #1f1c16;
 }
 
 .start_btn span {}
 
 .start_btn a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'IranYekan', sans-serif;
     border: 1px solid transparent;
     color: #000;
     display: inline-block;
-    font-weight: 400;
+    font-weight: bolder;
     background: #ffb900;
     padding: 16px 34px;
 }
@@ -1289,7 +1293,7 @@ a.slidebtn i {
 }
 
 .start_btn a:hover {
-    background: transparent;
+    background:#0000005c;
     border: 1px solid #fff;
     color: #fff;
 }
@@ -3520,7 +3524,9 @@ button:focus {
     .header_logo{
         width: 350px;
     }
-
+.backpnRad{
+    display: none;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -4076,14 +4082,14 @@ button:focus {
     line-height: 40px
 }
 .hoproduct-3 {
-    display: flex;
+    display: inherit;
     height: 250px;
 }
 .hoproduct-3 .hoproduct-image {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 165px;
     flex: 0 0 165px;
-    max-width: 165px
+    max-width: 320px;
 }
 
 .hoproduct-3 .hoproduct-content {
@@ -4242,12 +4248,12 @@ button:focus {
     color: #000;
     /* padding-top: 47px; */
 }
-.txtRns{
-    font-weight: 400;
-    font-family: 'IranYekan', sans-serif;
-    color: #f1f1f1;
+.txtRnsm{
+    text-shadow: 4px 4px 8px #41444c, 8px -4px 8px #1f1c16;
 
 }
-.rad{
 
+.hoproduct img:hover {
+    -webkit-box-shadow: 0 2px 13.95px 1.05px rgba(0,0,0,.05);
+    box-shadow: 0 2px 13.95px 1.05px rgba(0,0,0,.05);
 }
