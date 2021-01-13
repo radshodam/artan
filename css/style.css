@@ -1307,10 +1307,11 @@ a.slidebtn i {
 
 .popular_wrap h1 {
     font-size: 46px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     font-family: 'IranYekan', sans-serif;
     color: #000;
+    margin-bottom: 80px;
 }
 
 .popular_wrap span {
@@ -1322,6 +1323,10 @@ a.slidebtn i {
     margin-bottom: 40px;
     display: block;
 }
+@media (max-width:760px){
+.radsTxt{
+    text-align: center;
+}}
 
 .popular_wrap .popular_img {
     overflow: hidden;
