@@ -4236,3 +4236,18 @@ button:focus {
     color: #000000c7;
     text-shadow: 4px 4px 8px #00000059, 8px -4px 8px #ffffff;
 }
+.txtRn{
+
+    font-family: 'IranYekan', sans-serif;
+    color: #000;
+    /* padding-top: 47px; */
+}
+.txtRns{
+    font-weight: 400;
+    font-family: 'IranYekan', sans-serif;
+    color: #f1f1f1;
+
+}
+.rad{
+
+}
