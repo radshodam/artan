@@ -4088,14 +4088,17 @@ button:focus {
 }
 .hoproduct-3 {
     display: inherit;
-    height: 250px;
+    height: auto;
+    width: inherit;
 }
 .hoproduct-3 .hoproduct-image {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 165px;
     flex: 0 0 165px;
-    max-width: 320px;
+    /* max-width: 320px; */
 }
+
+
 
 .hoproduct-3 .hoproduct-content {
     padding: 15px 0 0 15px
@@ -4261,4 +4264,8 @@ button:focus {
 .hoproduct img:hover {
     -webkit-box-shadow: 0 2px 13.95px 1.05px rgba(0,0,0,.05);
     box-shadow: 0 2px 13.95px 1.05px rgba(0,0,0,.05);
+}
+.soRad{
+    width: 250px;
+    height: 250px;
 }
