@@ -226,8 +226,11 @@ p {
     color: #727280 !important;
 }
 
+.header_logo {
+    width: 666px;
+}
 .header_logo img {
-    width: 270px;
+    width: 70%;
 }
 
 .navbar li span {
@@ -275,7 +278,7 @@ p {
 }
 
 .navbar {
-    float: left;
+    /* float: left; */
 }
 
 .navbar-light .navbar-nav .nav-item:hover .nav-link .caret,
@@ -3311,6 +3314,25 @@ button:focus {
 }
 
 @media screen and (max-width: 990px) {
+    .header_logo img {
+        margin-right: 2%;
+
+        width: 24%;
+    }
+    .focus {
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: rgb(2, 2, 2);
+        letter-spacing: .2rem;
+        line-height: 1;
+        position: relative;
+        width: 159px;
+        direction: ltr;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -70px !important;
+        margin-right: 38%;
+    }
     .hero-image {
         height: 400px;
         width: 100%;
@@ -3402,8 +3424,8 @@ button:focus {
 
     .navbar-toggler {
         position: absolute;
-        top: 39%;
-        left: 0%;
+        top: 25%;
+        left: 3%;
         border: 1px solid #ffc107;
         background-color: #ffd658;
         ;
@@ -3532,9 +3554,11 @@ button:focus {
 .backpnRad{
     display: none;
 }
+
 }
 
 @media screen and (max-width: 767px) {
+
     .hero-image {
         height: 300px;
         width: 100%;
@@ -3588,6 +3612,23 @@ button:focus {
 }
 
 @media screen and (max-width: 480px) {
+    .header_logo img {
+        width: 24%;
+    }
+    .focus {
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: rgb(2, 2, 2);
+        letter-spacing: .2rem;
+        line-height: 1;
+        position: relative;
+        width: 159px;
+        direction: ltr;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -40 !important;
+        margin-right: 38%;
+    }
     .four-zero-page p {
         letter-spacing: 0;
     }
@@ -4407,7 +4448,7 @@ button:focus {
     direction: ltr;
     display: flex;
     justify-content: space-between;
-    /* margin-left: 50px; */
+    margin-top: 30px;
 }
 .focus--mask {
     overflow: hidden;
