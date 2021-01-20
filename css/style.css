@@ -1621,12 +1621,12 @@ section.our_team_wrap .team_member {
 
 .footer.bg-style .footer-widget h3.title:before {
     content: "";
-    background: #fff;
-    width: 40px;
-    height: 1px;
+    background: #f5c43d;
+    width: 157px;
+    height: 2px;
     position: absolute;
-    bottom: -15px;
-    right: 0;
+    bottom: -11px;
+    right: 0px;
 }
 
 .footer-widget.quick-links ul li a {
@@ -1699,6 +1699,7 @@ section.our_team_wrap .team_member {
 .property_info h4 {
     margin-bottom: 0px;
     line-height: 14px;
+    padding: 15px 0px
 }
 
 .property_info h4 a {
@@ -3437,10 +3438,15 @@ button:focus {
         background-color: #ffd658;
         ;
     }
-
+.footLogo{
+    padding: 2px;
+}
     @media screen and (max-width:768px) {
         .navbar-toggler {
             left: 28px;
+        }
+        .footLogo{
+            padding: 12px 4px 65px 65px;
         }
     }
 
