@@ -3313,6 +3313,7 @@ button:focus {
 
 }
 
+
 @media screen and (max-width: 990px) {
     .header_logo img {
         margin-right: 2%;
@@ -3332,6 +3333,7 @@ button:focus {
         justify-content: space-between;
         margin-top: -70px !important;
         margin-right: 38%;
+
     }
     .hero-image {
         height: 400px;
@@ -3430,7 +3432,11 @@ button:focus {
         background-color: #ffd658;
         ;
     }
-
+    @media screen and (max-width:768px){
+        .navbar-toggler {
+            left: 28px;
+        }
+    }
     .navbar-collapse {
         position: fixed;
         top: 0px;
@@ -3615,20 +3621,7 @@ button:focus {
     .header_logo img {
         width: 24%;
     }
-    .focus {
-        font-size: 3rem;
-        text-transform: uppercase;
-        color: rgb(2, 2, 2);
-        letter-spacing: .2rem;
-        line-height: 1;
-        position: relative;
-        width: 159px;
-        direction: ltr;
-        display: flex;
-        justify-content: space-between;
-        margin-top: -40 !important;
-        margin-right: 38%;
-    }
+    
     .four-zero-page p {
         letter-spacing: 0;
     }
@@ -4449,6 +4442,8 @@ button:focus {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    margin-inline: 35px;
+
 }
 .focus--mask {
     overflow: hidden;
@@ -4477,4 +4472,53 @@ button:focus {
     border-bottom: 2px solid;
     -webkit-animation: mask-move 1s linear infinite alternate;
     animation: mask-move 1s linear infinite alternate;
+}
+@media screen and (max-width:1024px){
+    .focus {
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: rgb(2, 2, 2);
+        letter-spacing: .2rem;
+        line-height: 1;
+        position: relative;
+        width: 159px;
+        direction: ltr;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-inline: -35px;
+    
+    }
+}
+@media screen and (max-width:768px){
+    .focus {
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: rgb(2, 2, 2);
+        letter-spacing: .2rem;
+        line-height: 1;
+        position: relative;
+        width: 159px;
+        direction: ltr;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -40 !important;
+        margin-right: 40%;
+    }
+}
+@media screen and (max-width:425px){
+    .focus {
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: rgb(2, 2, 2);
+        letter-spacing: .2rem;
+        line-height: 1;
+        position: relative;
+        width: 159px;
+        direction: ltr;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -42px !important;
+        margin-right: 28%;
+    }
 }
