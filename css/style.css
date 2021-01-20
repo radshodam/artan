@@ -4538,3 +4538,19 @@ button:focus {
         margin-right: 28%;
     }
 }
+@media screen and (max-width:1440px){
+    .focus {
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: rgb(2, 2, 2);
+        letter-spacing: .2rem;
+        line-height: 1;
+        position: relative;
+        width: 159px;
+        direction: ltr;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 18px !important;
+        margin-right: 12%;
+    }  
+}
