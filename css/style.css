@@ -4490,6 +4490,22 @@ button:focus {
     
     }
 }
+@media screen and (max-width:990px){
+    .focus {
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: rgb(2, 2, 2);
+        letter-spacing: .2rem;
+        line-height: 1;
+        position: relative;
+        width: 159px;
+        direction: ltr;
+        display: flex;
+        justify-content: space-between;
+        margin-top:-55 !important;
+        margin-right: 43%;
+    }
+}
 @media screen and (max-width:768px){
     .focus {
         font-size: 3rem;
